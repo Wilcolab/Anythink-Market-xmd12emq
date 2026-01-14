@@ -9,7 +9,7 @@ var states = {
     "operand2": 3,
     "complete": 4
 };
-
+//test
 var state = states.start;
 
 var operand1 = 0;
@@ -40,7 +40,6 @@ function calculate(operand1, operand2, operation) {
             setError();
             return;
     }
-    //changed here
 
     uri += "&operand1=" + encodeURIComponent(operand1);
     uri += "&operand2=" + encodeURIComponent(operand2);
