@@ -92,7 +92,7 @@ describe('Arithmetic', function () {
                 });
         });
     });
-
+//test
 describe('Power', function () {
     it('raises a positive integer to a positive integer power', function (done) {
         request.get('/arithmetic?operation=power&operand1=2&operand2=3')
